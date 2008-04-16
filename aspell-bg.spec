@@ -5,8 +5,8 @@
 # that is wrong and fixed in the spec file; the fix has to
 # be removed once the kbd file shipped with the sources is fixed.
 
-%define src_ver 4.0-0
-%define fname aspell5-%{languagecode}
+%define src_ver 4.1-0
+%define fname aspell6-%{languagecode}
 %define aspell_ver 0.60
 %define languageenglazy Bulgarian
 %define languagecode bg
@@ -14,8 +14,8 @@
 
 Summary:       %{languageenglazy} files for aspell
 Name:          aspell-%{languagecode}
-Version:       4.0.0
-Release:       %mkrel 5
+Version:       4.1.0
+Release:       %mkrel 1
 Group:         System/Internationalization
 Source:        http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
 URL:           http://aspell.net/
